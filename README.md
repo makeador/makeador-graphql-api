@@ -8,7 +8,7 @@
   </a>
 </p>
 
-`makeador-graphql-api` is a microservice that exposes a GraphQL API to consume apparently random –but not random, we swear. It's destiny.) _makea_ states, to decide if stuff makes sense (hence _makea_).
+`makeador-graphql-api` is a microservice that exposes a GraphQL API to consume _makea_ states, to decide if stuff makes sense (hence _makea_).
 
 ## Documentation
 ### GraphQL query
@@ -18,7 +18,7 @@
 }
 ```
 ### Possible responses
-#### _Apparently random. But not random, we swear. It's destiny._
+###### _Apparently random. But not random, It's destiny._
 ```JSON
 {
   "data": {
