@@ -1,5 +1,5 @@
 {
-  "name": "makeador-api",
+  "name": "makeador-graphql-api",
   "version": "0.0.0",
   "description": "Microservice that exposes makeador-core as a graphQL resource",
   "main": "build/main.js",
