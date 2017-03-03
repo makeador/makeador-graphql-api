@@ -7,6 +7,7 @@
   "author": "Ignacio Álvarez, Esteban Las, Rodrigo López",
   "license": "MIT",
   "scripts": {
+    "start": "yarn build && node build/main.js",
     "dev": "backpack",
     "build": "backpack build",
     "test": "yarn build && xo && ava"

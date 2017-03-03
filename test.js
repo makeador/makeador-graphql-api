@@ -9,7 +9,7 @@ let server;
 let client;
 
 test.before('start server', async () => {
-  server = exec('node build/main.js');
+  server = exec('yarn start');
   await delay(5000);
   client = new Lokka({
     transport: new Transport('http://localhost:3000')
