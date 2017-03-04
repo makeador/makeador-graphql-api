@@ -22,7 +22,7 @@ const graphqlHTTPHandler = graphqlHTTP({
   graphiql: true
 });
 
-const corsSetup = cors({origin: __DEV__ ? '*' : 'https://makeador-web.now.sh'});
+const corsSetup = cors();
 
 const corsEnabledGraphqlHTTPHandler = corsSetup(graphqlHTTPHandler);
 
