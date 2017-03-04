@@ -12,7 +12,7 @@ test.before('start server', async () => {
   server = exec('yarn start');
   await delay(5000);
   client = new Lokka({
-    transport: new Transport('http://localhost:3000')
+    transport: new Transport('http://localhost:8000')
   });
 });
 
