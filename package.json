@@ -28,6 +28,7 @@
     "micro-cors": "^0.0.1"
   },
   "xo": {
-    "space": true
+    "space": true,
+    "globals": ["__DEV__"]
   }
 }

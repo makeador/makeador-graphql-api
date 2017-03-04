@@ -4,7 +4,7 @@ import {buildSchema} from 'graphql';
 import graphqlHTTP from 'express-graphql';
 import makeador from 'makeador-core';
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8000;
 
 const schema = buildSchema(`
   type Query {
@@ -22,10 +22,12 @@ const graphqlHTTPHandler = graphqlHTTP({
   graphiql: true
 });
 
-const corsEnabledGraphqlHTTPHandler = cors()(graphqlHTTPHandler);
+const corsSetup = cors({origin: __DEV__ ? 'http://localhost:3000' : 'https://makeador-web.now.sh'});
+
+const corsEnabledGraphqlHTTPHandler = corsSetup(graphqlHTTPHandler);
 
 const server = micro(corsEnabledGraphqlHTTPHandler);
 
 server.listen(PORT);
 
-console.log(`Server listening on port ${PORT}`);
+console.log(`Server listening localhost:${PORT}`);
