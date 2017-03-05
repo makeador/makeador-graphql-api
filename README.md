@@ -1,5 +1,7 @@
 # makeador-graphql-api
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/makeador/makeador-graphql-api.svg)](https://greenkeeper.io/)
+
 
 <p>
   <a href="https://travis-ci.org/makeador/makeador-graphql-api">
