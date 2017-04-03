@@ -25,7 +25,7 @@
     "graphql": "^0.9.1",
     "makeador-core": "^0.0.3",
     "micro": "^7.0.6",
-    "micro-cors": "^0.0.1"
+    "micro-cors": "^0.0.2"
   },
   "xo": {
     "space": true,
