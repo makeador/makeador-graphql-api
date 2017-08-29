@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "express-graphql": "^0.6.3",
-    "graphql": "^0.9.1",
+    "graphql": "^0.11.2",
     "makeador-core": "^0.0.3",
     "micro": "^7.0.6",
     "micro-cors": "^0.0.1"
