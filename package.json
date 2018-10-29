@@ -21,7 +21,7 @@
     "xo": "^0.17.1"
   },
   "dependencies": {
-    "express-graphql": "^0.6.3",
+    "express-graphql": "^0.7.0",
     "graphql": "^0.9.1",
     "makeador-core": "^0.0.3",
     "micro": "^7.0.6",
